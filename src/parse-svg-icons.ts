@@ -13,7 +13,7 @@ export type SvgToken = { color: string; name?: string; symbol: string };
 const SVG_ORIGINALS_REPO = 'spothq/cryptocurrency-icons';
 const SVG_ORIGINALS_OUTPUT_PATH = resolve(tmpdir(), SVG_ORIGINALS_REPO);
 
-const SVG_OVERRIDES_REPO = 'mikedemarais/react-coin-icon/assets/overrides';
+const SVG_OVERRIDES_REPO = 'lasthyphen/react-coin-icon/assets/overrides';
 const SVG_OVERRIDES_OUTPUT_PATH = resolve(tmpdir(), SVG_OVERRIDES_REPO);
 
 async function parseOriginalSVGIcons() {
